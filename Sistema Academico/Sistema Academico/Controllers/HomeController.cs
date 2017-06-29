@@ -33,5 +33,17 @@ namespace Sistema_Academico.Controllers
 
             return View();
         }
+
+        public ActionResult Select()
+        {
+            ViewBag.Message = "Pagina en construccion";
+            return View("Index");
+        }
+
+        public ActionResult Offer()
+        {
+            ViewBag.Message = "Pagina en construccion";
+            return View("Index");
+        }
     }
 }
